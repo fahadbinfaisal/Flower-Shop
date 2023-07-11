@@ -10,15 +10,16 @@
 .banner-all-item{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 240px 0 240px;
-    /* gap: 240px; */
+    justify-content: space-between;
+    margin: 0 200px 0 240px;
 }
 .banner-info{
     margin-top: 240px;
-
 }
-
+.banner-all-item img{
+    margin-top: 9%;
+    margin-left: 1%;
+}
 .banner-title{
     color: #272727;
     font-family: Lato;
@@ -31,7 +32,6 @@
     font-size: 18px;
     font-weight: 400;
     margin-top: 32px;
-    /* margin-right: 560px; */
 }
 .btn{
     margin-top: 32px;
@@ -43,7 +43,7 @@
 }
 /* Our Featured Flowers */
 .conatiner{
-    margin-top: 180px;
+    margin-top: 150px;
     text-align: center;
 }
 .featured-title{
@@ -54,7 +54,6 @@
 }
 .featured-desc{
     color: rgba(39, 39, 39, 0.60);
-    /* text-align: center; */
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
@@ -75,19 +74,16 @@
 .rectangle-1 img{
     width: 310px;
     height: 428px;
-    flex-shrink: 0;
-    padding: ;
+    
 }
 .rectangle-2{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 90px 78px 0 76px;
-
 }
 .rectangle-2 img{
     width: 310px;
     height: 428px;
-    flex-shrink: 0;
 }
 .rectangle-3{
     border-radius: 300px 300px 0px 0px;
@@ -108,6 +104,7 @@
     text-decoration-line: underline;
 }
 /* Our Services  */
+
 .service-container{
     height: 256px;
     margin: 128px 240px 210px 240px;
@@ -143,3 +140,28 @@
     margin-right: 340px;
 }
 /* Instagram */
+
+.insta-container{
+    margin-top: 50px;
+}
+.insta-container img{
+    padding: 0 10px;
+}
+/* Newslater */
+.newslater{
+    background-image: url("Flower Asset/Rectangle 9.png");
+    margin: 150px 240px;
+    height: 450px;
+    /*  */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.newslater-text{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center
+}
