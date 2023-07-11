@@ -42,7 +42,7 @@
     color: white;
 }
 /* Our Featured Flowers */
-.conatiner{
+.container{
     margin-top: 150px;
     text-align: center;
 }
@@ -93,7 +93,6 @@
 .rectangle-3 img{
     width: 310px;
     height: 428px;
-    flex-shrink: 0;
 }
 .rectangle p{ 
     margin-top: 30px;
@@ -175,6 +174,29 @@
     margin-right: 20px;
     width: 45%;
 }
+/* <!-- Testimonial --> */
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 240px 45px 240px ;
+    gap: 80px;
+}
+.tesimonials-col{
+    background: #E554731A;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+    gap: 30px;
+}
+.tesimonials-col img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+
 /* <!-- ====This is Footer===== --> */
 .footer{
     width: 100%;
