@@ -14,7 +14,7 @@
     margin: 0 200px 0 240px;
 }
 .banner-info{
-    margin-top: 240px;
+    /* margin-top: 240px; */
 }
 .banner-all-item img{
     margin-top: 9%;
@@ -139,7 +139,7 @@
 .offer-container img{
     margin-right: 340px;
 }
-/* Instagram */
+/*========== Instagram =========*/
 
 .insta-container{
     margin-top: 50px;
@@ -147,12 +147,11 @@
 .insta-container img{
     padding: 0 10px;
 }
-/* Newslater */
+/*--------------- Newslater------------ */
 .newslater{
     background-image: url("Flower Asset/Rectangle 9.png");
     margin: 150px 240px;
     height: 450px;
-    /*  */
     background-position: center;
     background-size: cover;
     position: relative;
@@ -164,4 +163,50 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center
+}
+
+.contact input[type="email"]{
+    margin-top: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    margin-right: 20px;
+    width: 45%;
+}
+/* <!-- ====This is Footer===== --> */
+.footer{
+    width: 100%;
+    height: 450px;
+    background: #111010;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.footer-info{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.footer-info h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    color: wheat;
+}
+.footer-info p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 32px;
+    color: #FFFFFFE5;
+    margin-bottom: 32px;
+}
+.footer-info small{
+    color: #FFFFFF66;
 }
