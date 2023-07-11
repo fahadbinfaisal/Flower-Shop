@@ -6,15 +6,13 @@
 #banner{
     background: #E554731A;
     height: 100vh;
+    width: 100%;
 }
 .banner-all-item{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px 0 240px;
-}
-.banner-info{
-    /* margin-top: 240px; */
 }
 .banner-all-item img{
     margin-top: 9%;
